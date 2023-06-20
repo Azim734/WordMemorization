@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Icons\email-icon.png" />
+    <None Remove="Assets\Icons\password-icon.png" />
+    <None Remove="Assets\Images\1.jpg" />
+    <None Remove="Assets\Images\10.jpg" />
+    <None Remove="Assets\Images\11.jpg" />
+    <None Remove="Assets\Images\2.jpg" />
+    <None Remove="Assets\Images\3.jpg" />
+    <None Remove="Assets\Images\4.jpg" />
+    <None Remove="Assets\Images\5.jpg" />
+    <None Remove="Assets\Images\6.jpg" />
+    <None Remove="Assets\Images\7.jpg" />
+    <None Remove="Assets\Images\8.jpg" />
+    <None Remove="Assets\Images\9.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Icons\password-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Icons\email-icon.png" />
+    <Resource Include="Assets\Images\7.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.9.0" />
+    <PackageReference Include="Npgsql" Version="7.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Assets\Logons\" />
+    <Folder Include="Assets\Sounds\" />
+    <Folder Include="Components\" />
+    <Folder Include="Enums\" />
+    <Folder Include="VeiwModels\" />
+    <Folder Include="Themes\" />
+    <Folder Include="Styles\" />
+    <Folder Include="Security\" />
+    <Folder Include="Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\1.jpg" />
+    <Resource Include="Assets\Images\10.jpg" />
+    <Resource Include="Assets\Images\11.jpg" />
+    <Resource Include="Assets\Images\2.jpg" />
+    <Resource Include="Assets\Images\3.jpg" />
+    <Resource Include="Assets\Images\4.jpg" />
+    <Resource Include="Assets\Images\5.jpg" />
+    <Resource Include="Assets\Images\6.jpg" />
+    <Resource Include="Assets\Images\8.jpg" />
+    <Resource Include="Assets\Images\9.jpg" />
+  </ItemGroup>
+
+</Project>
